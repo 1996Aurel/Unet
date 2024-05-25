@@ -159,3 +159,8 @@ if __name__ == '__main__':
         out_dir
     )
     print('TRAINING COMPLETE')
+
+
+
+
+print(f"GPU enabled: {torch.cuda.is_available()}")
